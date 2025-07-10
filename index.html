@@ -1,12 +1,49 @@
 
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Khaled AI Studio</title>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khaled AI Studio</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Khaled AI Studio</h1>
+      <button class="lang-btn">اختار اللغة ▾</button>
+    </header>
+    <main>
+      <section class="card purple">
+        <h2>حول فكرتك لصورة</h2>
+        <input placeholder="اكتب فكرتك هنا..." />
+        <button>ولد صورة</button>
+      </section>
+      <section class="card yellow">
+        <h2>ارفع صورة - اعمل زيها</h2>
+        <input type="file" />
+        <button>اعمللي زي دي</button>
+      </section>
+      <section class="card blue">
+        <h2>ولد فيديو بلهجة عربية</h2>
+        <select>
+          <option>مصري</option>
+          <option>خليجي</option>
+          <option>شامي</option>
+          <option>مغربي</option>
+        </select>
+        <input placeholder="اكتب المشهد هنا..." />
+        <button>ولد فيديو</button>
+      </section>
+      <section class="card pink">
+        <p>🎁 خُد كوينزك اليومية</p>
+        <button>خد كوينز</button>
+      </section>
+      <section class="card red">
+        <h2>اعمل إعلان لمنتجك</h2>
+        <button>ابدأ دلوقتي</button>
+      </section>
+    </main>
+  </div>
+</body>
 </html>
